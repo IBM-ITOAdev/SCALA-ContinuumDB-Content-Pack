@@ -1,0 +1,885 @@
+[SCALA_server]
+scalaHome: /opt/scala/driver
+
+[DSV_file]
+delimiter: ,
+totalColumns: 96
+aqlModuleName: ContinuumAlarmEvents
+version: 1.0.0.0
+
+[field0_indexConfig]
+name: logRecord
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+path_1: content.text
+combine: FIRST
+
+[field1_indexConfig]
+name:jdbchost
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field2_indexConfig]
+name:ObjectIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field3_indexConfig]
+name:ObjectIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field4_indexConfig]
+name:EventObjectName
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field5_indexConfig]
+name:EventNotification
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field6_indexConfig]
+name:MasterAlmName
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field7_indexConfig]
+name:MasterAlmOwnerIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field8_indexConfig]
+name:MasterAlmOwnerIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field9_indexConfig]
+name:MasterAlmDeviceIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field10_indexConfig]
+name:MasterAlmDeviceIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field11_indexConfig]
+name:PanelIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field12_indexConfig]
+name:PanelIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field13_indexConfig]
+name:ReportIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field14_indexConfig]
+name:ReportIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field15_indexConfig]
+name:InitDeviceIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field16_indexConfig]
+name:InitDeviceIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field17_indexConfig]
+name: timestamp
+dataType: DATE
+dateFormat: yyyy-MM-dd HH:mm:ss.SS
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field18_indexConfig]
+name:EventNotificationIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field19_indexConfig]
+name:EventNotificationIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field20_indexConfig]
+name:EventTypeNum
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field21_indexConfig]
+name:MessageText
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field22_indexConfig]
+name:FromStateNum
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field23_indexConfig]
+name:ToStateNum
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field24_indexConfig]
+name:EventObjectIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field25_indexConfig]
+name:EventObjectIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field26_indexConfig]
+name:ActiveAlarm
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field27_indexConfig]
+name:MasterAlmIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field28_indexConfig]
+name:MasterAlmIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field29_indexConfig]
+name:OperatorText
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field30_indexConfig]
+name:TimeOfAck
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field31_indexConfig]
+name:OperatorActions
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field32_indexConfig]
+name:EventObjectValue
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field33_indexConfig]
+name:SvEventObjectValue
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field34_indexConfig]
+name:TimeOfLog
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field35_indexConfig]
+name:SilencedTime
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field36_indexConfig]
+name:AudioFile
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field37_indexConfig]
+name:EventEnable
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field38_indexConfig]
+name:Priority
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field39_indexConfig]
+name:DeactivateCrit
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field40_indexConfig]
+name:AlarmActions
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field41_indexConfig]
+name:EEObjectIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field42_indexConfig]
+name:EEObjectIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field43_indexConfig]
+name:RTN
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field44_indexConfig]
+name:AckRequired
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field45_indexConfig]
+name:AckedByWorkstationIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field46_indexConfig]
+name:AckedByWorkstationIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field47_indexConfig]
+name:AckedByUserIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field48_indexConfig]
+name:AckedByUserIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field49_indexConfig]
+name:SilencedByUserIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field50_indexConfig]
+name:SilencedByUserIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field51_indexConfig]
+name:LoggingWorkstationIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field52_indexConfig]
+name:LoggingWorkstationIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field53_indexConfig]
+name:SilencedByWorkstationIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field54_indexConfig]
+name:SilencedByWorkstationIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field55_indexConfig]
+name:InitDeviceName
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field56_indexConfig]
+name:AckedByWorkstation
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field57_indexConfig]
+name:SilencedByWorkstation
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field58_indexConfig]
+name:AckedByUser
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field59_indexConfig]
+name:SilencedByUser
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field60_indexConfig]
+name:LoggingWorkstation
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field61_indexConfig]
+name:EEObjectName
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field62_indexConfig]
+name:EventObjectOwnerIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field63_indexConfig]
+name:EventObjectOwnerIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field64_indexConfig]
+name:EventObjectDeviceIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field65_indexConfig]
+name:EventObjectDeviceIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field66_indexConfig]
+name:InitDeviceOwnerIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field67_indexConfig]
+name:InitDeviceOwnerIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field68_indexConfig]
+name:InitDeviceDeviceIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field69_indexConfig]
+name:InitDeviceDeviceIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field70_indexConfig]
+name:AckedByWorkstationOwnerIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field71_indexConfig]
+name:AckedByWorkstationOwnerIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field72_indexConfig]
+name:AckedByWorkstationDeviceIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field73_indexConfig]
+name:AckedByWorkstationDeviceIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field74_indexConfig]
+name:SilencedByWorkstationOwnerIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field75_indexConfig]
+name:SilencedByWorkstationOwnerIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field76_indexConfig]
+name:SilencedByWorkstationDeviceIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field77_indexConfig]
+name:SilencedByWorkstationDeviceIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field78_indexConfig]
+name:LoggingWorkstationOwnerIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field79_indexConfig]
+name:LoggingWorkstationOwnerIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field80_indexConfig]
+name:LoggingWorkstationDeviceIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field81_indexConfig]
+name:LoggingWorkstationDeviceIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field82_indexConfig]
+name:AckedByUserOwnerIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field83_indexConfig]
+name:AckedByUserOwnerIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field84_indexConfig]
+name:AckedByUserDeviceIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field85_indexConfig]
+name:AckedByUserDeviceIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field86_indexConfig]
+name:SilencedByUserOwnerIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field87_indexConfig]
+name:SilencedByUserOwnerIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field88_indexConfig]
+name:SilencedByUserDeviceIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field89_indexConfig]
+name:SilencedByUserDeviceIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field90_indexConfig]
+name:EventNotificationOwnerIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field91_indexConfig]
+name:EventNotificationOwnerIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field92_indexConfig]
+name:EventNotificationDeviceIdHi
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field93_indexConfig]
+name:EventNotificationDeviceIdLo
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: false
+filterable: false
+searchable: true
+
+[field94_indexConfig]
+name:EventType
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field95_indexConfig]
+name:ToState
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
+[field96_indexConfig]
+name:FromState
+dataType: TEXT
+retrievable: true
+retrieveByDefault: true
+sortable: true
+filterable: true
+searchable: true
+
